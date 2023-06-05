@@ -1,0 +1,76 @@
+body{
+background-image: url('background3.jpg');
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+overflow: hidden;
+position: relative;
+}
+#heading{
+    position: absolute;
+    top:0%;
+    color:white;
+}
+
+
+.l_form{
+    padding: 3vh 3vw;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;    
+    height:30vh;
+    min-width: 27vw;
+    max-width: 90vw;
+    position: relative;
+    border-radius: 10px;
+    background:none;
+    border-color: rgb(120, 16, 16);
+    color:white;
+    font-size: 1.5rem;
+    position: relative;
+    right:40%;
+    bottom: 10vh;
+    
+}
+
+.l_form .input{
+    width:80%;
+    height: 15%;
+    border: none;
+    border-bottom: 2px solid silver;
+    opacity: 1;
+    background: none;
+    border-color: rgb(120, 16, 16);
+    
+    outline: none;
+    font-size: 1.1rem;
+}
+
+#loginbtn{
+    align-self: center;
+    background-color:  rgb(10, 23, 174);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    max-width: 90%;
+    width:45%;
+    min-width: 20%;
+    min-height: 20%;
+}
+
+#loginbtn a{
+    color:white;
+    text-decoration: none;
+}
+
+#fp{
+    font-size: 1rem;
+    color:blue;
+    text-align: left;
+    cursor: pointer;
+
+}
